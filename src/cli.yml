@@ -1,0 +1,20 @@
+name: just_boring
+version: "0.1.0"
+author: Patrick J. Trottier <PTrottier@laurentian.ca>
+about: Build a tunnel to copy files from servers accessed via tunnels.
+args:
+    - source:
+        index: 1
+        value_name: SOURCE
+        help: Path to file to retrieve from remote server.
+        takes_value: true
+    - target:
+        index: 2
+        value_name: TARGET
+        help: Path to save the retrived file.
+        takes_value: true
+    - username:
+        index: 3
+        value_name: USERNAME
+        help: Your username written in a case sensitive manner.
+        takes_value: true
