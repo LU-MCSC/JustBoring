@@ -1,5 +1,5 @@
 // Copyright © 2019 Patrick J. Trottier. All rights reserved.
-// The following code is covered by the AGPL-3.0 license.
+// The following code is covered by the GPL-3.0 license.
 
 #[macro_use]
 extern crate clap; 
